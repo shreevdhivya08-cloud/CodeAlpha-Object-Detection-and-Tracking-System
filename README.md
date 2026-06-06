@@ -1,23 +1,23 @@
-# 🎯 YOLOv8 Object Detection & Tracking
+#  YOLOv8 Object Detection & Tracking
 
 Real-time object detection and tracking from your webcam (or any video file) using **YOLOv8** and **OpenCV**.
 
 ---
 
-## ✨ Features
+##  Features
 
 | Feature | Details |
 |---|---|
-| 📷 Webcam / video input | Any OpenCV-compatible source |
-| 🟩 Bounding boxes | Colour-coded per class |
-| 🏷️ Labels + confidence | e.g. `#3 person 94%` |
-| 🔢 Tracking IDs | Persistent IDs via ByteTrack |
-| ⚡ FPS display | Live frames-per-second overlay |
-| 💾 Save output video | Writes an `output.mp4` automatically |
+|  Webcam / video input | Any OpenCV-compatible source |
+|  Bounding boxes | Colour-coded per class |
+|  Labels + confidence | e.g. `#3 person 94%` |
+|  Tracking IDs | Persistent IDs via ByteTrack |
+|  FPS display | Live frames-per-second overlay |
+|  Save output video | Writes an `output.mp4` automatically |
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 ├── detect_track.py   ← main script
@@ -27,7 +27,7 @@ Real-time object detection and tracking from your webcam (or any video file) usi
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1 — Clone / download the project
 
@@ -66,7 +66,7 @@ Press **Q** to quit. The output video is saved as `output.mp4`.
 
 ---
 
-## ⚙️ Command-line Options
+##  Command-line Options
 
 ```
 usage: detect_track.py [-h] [--source SOURCE] [--model MODEL]
@@ -104,7 +104,7 @@ python detect_track.py --no-track
 
 ---
 
-## 🤖 Model Sizes
+##  Model Sizes
 
 Pick the right trade-off for your hardware:
 
@@ -120,7 +120,7 @@ Start with `yolov8n.pt` (the default) — it runs well on a CPU.
 
 ---
 
-## 🖥️ Requirements
+##  Requirements
 
 - Python **3.8 – 3.12**
 - A webcam **or** a video file
@@ -128,7 +128,7 @@ Start with `yolov8n.pt` (the default) — it runs well on a CPU.
 
 ---
 
-## 🛠️ Troubleshooting
+##  Troubleshooting
 
 | Problem | Fix |
 |---|---|
@@ -139,6 +139,6 @@ Start with `yolov8n.pt` (the default) — it runs well on a CPU.
 
 ---
 
-## 📄 License
+##  License
 
 MIT — free to use, modify, and distribute.
